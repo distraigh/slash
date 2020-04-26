@@ -5,7 +5,7 @@
 /////https://github.com/arudji1211//////
 ///////////////////////////////////////
 
-include 'tri_req.php';
+include 'hajar.php';
 
 $tri = new tri();
 $imei = "868880043302499";
@@ -23,8 +23,8 @@ $id = json_decode($id,true);
 $id = $id['data'][0]['rewardTransactionId'];
 for($id1 = 1500; $id1 < 1600;$id1++)
 {
-  $gas = $tri->claim($bearer,$id,$id1);
-  echo $gas . "\r\n";
+  $hajar = $tri->claim($bearer,$id,$id1);
+  echo $hajar . "\r\n";
   sleep(2);
 }
 
