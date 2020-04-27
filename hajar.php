@@ -2,7 +2,7 @@
 include 'cokot.php';
 
 $hajar = new tri();
-$imei = "868880043302499";
+$imei = "869240048309852";
 echo "Masukkan No Telepon : ";
 $msisdn = trim(fgets(STDIN));
 $otp = $tri->request_otp($msisdn,$imei);
