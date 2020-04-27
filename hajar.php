@@ -5,7 +5,7 @@ $hajar = new tri();
 $imei = "869240048309852";
 echo "Masukkan No Telepon : ";
 $msisdn = trim(fgets(STDIN));
-$otp = $tri->request_otp($msisdn,$imei);
+$otp = $hajar->request_otp($msisdn,$imei);
 echo $otp[1] . "\r\n";
 echo "Masukkan OTP : ";
 $otp = trim(fgets(STDIN));
