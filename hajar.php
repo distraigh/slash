@@ -7,7 +7,7 @@
 
 include 'cokot.php';
 
-$tri = hajar();
+$hajar = hajar();
 $imei = "868880043302499";
 echo "Masukkan No Telepon : ";
 $msisdn = trim(fgets(STDIN));
