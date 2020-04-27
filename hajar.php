@@ -5,9 +5,9 @@
 /////https://github.com/arudji1211//////
 ///////////////////////////////////////
 
-include 'hajar.php';
+include 'cokot.php';
 
-$hajar = hajar();
+$tri = hajar();
 $imei = "868880043302499";
 echo "Masukkan No Telepon : ";
 $msisdn = trim(fgets(STDIN));
